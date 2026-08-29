@@ -1,7 +1,7 @@
 {
     "name": "Manajer Uang Mingguan",
     "short_name": "Manajer Uang",
-    "start_url": "./index.html",
+    "start_url": "./mengelola_uang.php",
     "display": "standalone",
     "background_color": "#121212",
     "theme_color": "#4facfe",

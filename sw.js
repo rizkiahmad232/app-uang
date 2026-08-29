@@ -1,10 +1,10 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open('manajer-uang-v1').then((cache) => cache.addAll([
-            './index.html',
-            './manifest.json',
-            './icon-192.png',
-            './icon-512.png'
+            './mengelola_uang.php',
+            './manifest.json'
+            // './icon-192.png', // pastikan file ini ada atau akan error 404
+            // './icon-512.png'  // pastikan file ini ada atau akan error 404
         ]))
     );
 });
