@@ -1,4 +1,4 @@
-const CACHE_NAME = 'manajer-uang-v2';
+const CACHE_NAME = 'manajer-uang-v3';
 const PRECACHE_URLS = [
   './',
   './index.html',
