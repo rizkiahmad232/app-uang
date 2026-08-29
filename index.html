@@ -46,6 +46,207 @@
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
+/* ==================== THEME: PUTIH (Light White) ==================== */
+[data-theme="putih"] {
+  --bg-primary: #f5f7fa;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f2f5;
+  --bg-input: #eef1f6;
+  --text-primary: #1a1d26;
+  --text-secondary: #5f6b7a;
+  --text-muted: #9ca3af;
+  --accent: #4f8cff;
+  --accent-light: #6da3ff;
+  --accent-glow: rgba(79, 140, 255, 0.12);
+  --gradient: linear-gradient(135deg, #4f8cff 0%, #00d4ff 100%);
+  --gradient-warm: linear-gradient(135deg, #ff6b6b 0%, #ffaa5c 100%);
+  --income: #00b87a;
+  --income-bg: rgba(0, 184, 122, 0.1);
+  --expense: #e84057;
+  --expense-bg: rgba(232, 64, 87, 0.08);
+  --warning: #e6a200;
+  --warning-bg: rgba(230, 162, 0, 0.08);
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+[data-theme="putih"] .app-header { background: #f5f7fa; }
+[data-theme="putih"] .bottom-nav {
+  background: rgba(255, 255, 255, 0.92);
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+[data-theme="putih"] .balance-card {
+  background: linear-gradient(145deg, #3a7bd5 0%, #1a56a0 50%, #2d6cc4 100%);
+}
+[data-theme="putih"] .modal-sheet,
+[data-theme="putih"] .modal-confirm-box {
+  background: #ffffff;
+}
+[data-theme="putih"] .modal-handle { background: rgba(0,0,0,0.12); }
+[data-theme="putih"] .toast {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+  color: #1a1d26;
+}
+[data-theme="putih"] .filter-tabs { background: #eef1f6; }
+[data-theme="putih"] .filter-tab.active {
+  box-shadow: 0 2px 12px rgba(79,140,255,0.2);
+}
+[data-theme="putih"] .chip {
+  background: #eef1f6;
+  border-color: rgba(0,0,0,0.08);
+  color: #5f6b7a;
+}
+[data-theme="putih"] .form-input {
+  border-color: rgba(0,0,0,0.12);
+}
+
+/* ==================== THEME: PINK (Dark Rose) ==================== */
+[data-theme="pink"] {
+  --bg-primary: #1a0f18;
+  --bg-secondary: #241520;
+  --bg-card: #2d1a28;
+  --bg-card-hover: #3a2234;
+  --bg-input: #35202f;
+  --text-primary: #fce4ec;
+  --text-secondary: #b88a9e;
+  --text-muted: #6d4a5e;
+  --accent: #f06292;
+  --accent-light: #f48fb1;
+  --accent-glow: rgba(240, 98, 146, 0.15);
+  --gradient: linear-gradient(135deg, #f06292 0%, #e91e63 100%);
+  --gradient-warm: linear-gradient(135deg, #ff6b6b 0%, #ffaa5c 100%);
+  --income: #69f0ae;
+  --income-bg: rgba(105, 240, 174, 0.12);
+  --expense: #ff5252;
+  --expense-bg: rgba(255, 82, 82, 0.12);
+  --warning: #ffd740;
+  --warning-bg: rgba(255, 215, 64, 0.1);
+  --border: rgba(255, 255, 255, 0.06);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+[data-theme="pink"] .app-header { background: #1a0f18; }
+[data-theme="pink"] .bottom-nav {
+  background: rgba(26, 15, 24, 0.94);
+  border-top: 1px solid rgba(240,98,146,0.1);
+}
+[data-theme="pink"] .balance-card {
+  background: linear-gradient(145deg, #5c1a3a 0%, #3d0f26 50%, #4a1530 100%);
+  border: 1px solid rgba(240, 98, 146, 0.2);
+}
+[data-theme="pink"] .modal-sheet,
+[data-theme="pink"] .modal-confirm-box { background: #241520; }
+[data-theme="pink"] .modal-handle { background: rgba(255,255,255,0.12); }
+[data-theme="pink"] .filter-tabs { background: #241520; }
+[data-theme="pink"] .filter-tab.active {
+  background: var(--accent);
+  box-shadow: 0 2px 12px rgba(240,98,146,0.3);
+}
+[data-theme="pink"] .nav-item.active { color: #f06292; }
+[data-theme="pink"] .nav-item.active::before { background: #f06292; }
+[data-theme="pink"] .fab {
+  box-shadow: 0 4px 20px rgba(240,98,146,0.4);
+}
+
+/* ==================== THEME: BIRU (Deep Ocean Blue) ==================== */
+[data-theme="biru"] {
+  --bg-primary: #0b1628;
+  --bg-secondary: #0f1e36;
+  --bg-card: #132744;
+  --bg-card-hover: #183050;
+  --bg-input: #1a2f50;
+  --text-primary: #e0ecff;
+  --text-secondary: #7a9cc8;
+  --text-muted: #3d5a80;
+  --accent: #42a5f5;
+  --accent-light: #64b5f6;
+  --accent-glow: rgba(66, 165, 245, 0.15);
+  --gradient: linear-gradient(135deg, #42a5f5 0%, #1565c0 100%);
+  --gradient-warm: linear-gradient(135deg, #ff6b6b 0%, #ffaa5c 100%);
+  --income: #26a69a;
+  --income-bg: rgba(38, 166, 154, 0.12);
+  --expense: #ef5350;
+  --expense-bg: rgba(239, 83, 80, 0.12);
+  --warning: #ffca28;
+  --warning-bg: rgba(255, 202, 40, 0.1);
+  --border: rgba(66, 165, 245, 0.08);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+[data-theme="biru"] .app-header { background: #0b1628; }
+[data-theme="biru"] .bottom-nav {
+  background: rgba(11, 22, 40, 0.94);
+  border-top: 1px solid rgba(66,165,245,0.1);
+}
+[data-theme="biru"] .balance-card {
+  background: linear-gradient(145deg, #0d3b66 0%, #062040 50%, #0e4278 100%);
+  border: 1px solid rgba(66, 165, 245, 0.2);
+}
+[data-theme="biru"] .modal-sheet,
+[data-theme="biru"] .modal-confirm-box { background: #0f1e36; }
+[data-theme="biru"] .modal-handle { background: rgba(255,255,255,0.1); }
+[data-theme="biru"] .filter-tabs { background: #0f1e36; }
+[data-theme="biru"] .filter-tab.active {
+  background: var(--accent);
+  box-shadow: 0 2px 12px rgba(66,165,245,0.3);
+}
+[data-theme="biru"] .nav-item.active { color: #42a5f5; }
+[data-theme="biru"] .nav-item.active::before { background: #42a5f5; }
+[data-theme="biru"] .fab {
+  box-shadow: 0 4px 20px rgba(66,165,245,0.4);
+}
+
+/* ==================== THEME PICKER ==================== */
+.theme-picker {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+.theme-picker > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.theme-option {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.25s ease;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.theme-option:active {
+  transform: scale(0.92);
+}
+.theme-option[data-theme="default"] {
+  background: linear-gradient(135deg, #0a0e17 0%, #162036 50%, #4f8cff 100%);
+}
+.theme-option[data-theme="putih"] {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 50%, #4f8cff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.theme-option[data-theme="pink"] {
+  background: linear-gradient(135deg, #1a0f18 0%, #2d1a28 50%, #f06292 100%);
+}
+.theme-option[data-theme="biru"] {
+  background: linear-gradient(135deg, #0b1628 0%, #132744 50%, #42a5f5 100%);
+}
+.theme-option.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow), 0 2px 12px rgba(0,0,0,0.3);
+}
+.theme-label {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-align: center;
+}
+
 /* ==================== RESET & BASE ==================== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { height: 100%; -webkit-tap-highlight-color: transparent; }
@@ -951,6 +1152,31 @@ a { color: var(--accent); text-decoration: none; }
       <div class="page-intro">
         <h2>Pengaturan</h2>
         <p>Kelola data dan preferensimu</p>
+      </div>
+
+      <div class="settings-group">
+        <h3>Tampilan</h3>
+        <div class="settings-item" style="cursor:default; flex-direction: column; align-items: flex-start; gap: 12px;">
+          <span>🎨 Tema Warna</span>
+          <div class="theme-picker" id="theme-picker">
+            <div>
+              <div class="theme-option active" data-theme="default" title="Gelap"></div>
+              <div class="theme-label">Gelap</div>
+            </div>
+            <div>
+              <div class="theme-option" data-theme="putih" title="Putih"></div>
+              <div class="theme-label">Putih</div>
+            </div>
+            <div>
+              <div class="theme-option" data-theme="pink" title="Pink"></div>
+              <div class="theme-label">Pink</div>
+            </div>
+            <div>
+              <div class="theme-option" data-theme="biru" title="Biru"></div>
+              <div class="theme-label">Biru</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="settings-group">
@@ -2202,10 +2428,55 @@ function setupEvents() {
   });
 }
 
+/* ==================== THEME ==================== */
+function applyTheme(theme) {
+  if (theme && theme !== 'default') {
+    document.documentElement.setAttribute('data-theme', theme);
+    // Update meta theme-color for mobile browser chrome
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const themeColors = { putih: '#f5f7fa', pink: '#1a0f18', biru: '#0b1628' };
+    if (metaTheme && themeColors[theme]) metaTheme.setAttribute('content', themeColors[theme]);
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) metaTheme.setAttribute('content', '#0a0e17');
+  }
+}
+
+function setupThemePicker() {
+  const picker = document.getElementById('theme-picker');
+  if (!picker) return;
+  const currentTheme = Store.settings.theme || 'default';
+
+  // Set initial active state
+  picker.querySelectorAll('.theme-option').forEach(opt => {
+    opt.classList.toggle('active', opt.dataset.theme === currentTheme);
+  });
+
+  picker.addEventListener('click', (e) => {
+    const option = e.target.closest('.theme-option');
+    if (!option) return;
+    haptic();
+    const theme = option.dataset.theme;
+    picker.querySelectorAll('.theme-option').forEach(o => o.classList.remove('active'));
+    option.classList.add('active');
+    Store.settings.theme = theme;
+    Store.save();
+    applyTheme(theme);
+    // Re-render charts if on dashboard since colors may have changed
+    if (UI.currentPage === 'dashboard') {
+      setTimeout(() => UI.renderDashboard(), 100);
+    }
+    UI.toast('Tema berhasil diubah ✓', 'success');
+  });
+}
+
 /* ==================== INIT ==================== */
 document.addEventListener('DOMContentLoaded', () => {
   Store.load();
+  applyTheme(Store.settings.theme || 'default');
   setupEvents();
+  setupThemePicker();
   UI.init();
 });
 })();
